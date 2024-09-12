@@ -1,0 +1,138 @@
+ 
+ *{
+    font-family: "Inter", sans-serif;
+ }
+ 
+ 
+ 
+ 
+ .title img{
+    width: 100px;
+    height: 50px;
+    /* padding: 10px; */
+}
+  .title {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(8, 11, 37) ;
+    border: 1px solid white;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.title2 {
+    display: flex;
+    gap: 40px;
+    font-weight: bold;
+    color: rgb(8, 11, 37);
+    font-size: 20px;
+}
+/* .title2:hover p:nth-of-type(3){
+    background-image: url(https://static.lenskart.com/media/desktop/img/men_pic.png) ;
+} */
+.main img{
+   width: 100%;
+    height: 300px;
+}
+.main2  {
+    /* display: flex;
+    flex-direction: row;
+    gap:0px;
+    padding: 0,90px; */
+    display: flex;
+    gap:10px;
+    padding-left: 300px;
+    padding-right: 300px;
+  
+
+
+}
+.main2 img{
+    /* margin: 90px;
+    padding: 10px; */
+    /* width:500px; */
+    width:200px;
+}
+    .main3{
+        display: flex;
+        gap:10px;
+        padding-left: 300px;
+        padding-right: 300px;
+        
+    }
+   .main3 img{
+    width:200px
+   }
+ .free {
+    display: flex;
+    gap:0px;
+    padding-left:30px ;
+ }
+ .free img{
+    width:300px;
+    padding-left:2px ;
+ }
+ .kiara{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+ }
+ .kiara img{
+    width: 1500px;
+    height: 400px;
+ }
+.celeb {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.celeb img{
+    width: 400px;
+}
+.sale img{
+    width: 1200px;
+    height: 500px;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+}
+.gender{
+    display: flex;
+    gap: 10px;
+    
+}
+.gender img{
+    width: 700px;
+    height: 500px;
+
+}
+.footer{
+    background-color: rgb(22, 22, 83);
+    color: aliceblue;
+    font-size: 24px;
+    display: flex;
+   /* justify-content: center; */
+   flex-direction: row;
+
+}
+.footer ul li{
+    list-style-type: none;
+}
+.footer2{
+    background-color: rgb(22, 22, 83);
+    color: aliceblue;
+    font-size: 24px;
+    display: flex;
+   /* justify-content: center; */
+   flex-direction: row;
+   gap: 20px;
+   padding: 20px;
+}
